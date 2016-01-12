@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{b18116a1-306b-4fea-a2c4-ff25667bd1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5a234ac3-0fa6-4b45-958a-4e9c2ef95f19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="BaseUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BitReader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CssParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlParserLookup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PalmDbReader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StrUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TrivialHtmlParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlPullParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteOrderDecoder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="BaseUtil.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="BitReader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="CssParser.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlParserLookup.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PalmDbReader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scoped.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtil.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="geomutil.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="StrUtil.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="TrivialHtmlParser.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlPullParser.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteReader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteOrderDecoder.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadUtil.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

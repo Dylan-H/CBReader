@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>eea1f3b3-fdcb-4047-b72b-cca828ae5ad7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>6ff147a6-fb04-4ac0-83fd-1b9371812643</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{faad0967-33ee-40cc-a1f9-de09cf9875be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{a0efca59-3da4-4d66-ada5-814f3a9c3043}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Doc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MobiDoc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlFormatter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="EbookFormatter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRender.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="EbookController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="Doc.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="MobiDoc.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="EbookBase.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlFormatter.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="EbookFormatter.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRender.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="EbookController.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CBReader_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+</Project>
